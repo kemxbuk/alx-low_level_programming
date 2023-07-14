@@ -1,14 +1,15 @@
 #include <stdio.h>
 /**
- * main - assign a random number to the variable n
+ * main - print alphabets in lowercase and uppercase
  *
  * Return: always (0)
  */
 int main(void)
 {
-        char lower = 'a';
+	char lower = 'a';
 	char upper = 'A';
-        while (lower <= 'z')
+
+	while (lower <= 'z')
 	        {
                 putchar(lower);
                 lower++;
