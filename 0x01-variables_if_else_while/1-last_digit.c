@@ -4,7 +4,7 @@
 /** main - assign a random number to the variable n
  *
  * Return: always (0)
- */
+*/
 int main(void)
 {
 	int n;
@@ -24,7 +24,7 @@ int main(void)
 	}
 	else
 	{
-		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, last_digit);
+		printf("Last digit %d is %d and is less than 6 and not 0\n", n, last_digit);
 	}
 	return (0);
 }
