@@ -5,7 +5,6 @@
  * main - generate random numbers to detect -ve or +ve
  *
  * Return: always (0)
- * 
  */
 int main(void)
 {
