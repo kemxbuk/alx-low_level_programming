@@ -1,11 +1,18 @@
-#include "main.h"
+#include <stdlib.h>
+#include <stdio.h>
+#include <time.h>
 /**
-* main - Test function for positive or negative
-* Return: 0
-*/
-void positive_or_negative(int i)
+ * main - generate random numbers to detect -ve or +ve
+ *
+ * Return: always (0)
+ */
+int main(void)
 {
-if (n > 0)
+	int n;
+
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	if (n > 0)
 	{
 		printf("%d is positive\n", n);
 	}
@@ -19,4 +26,3 @@ if (n > 0)
 	}
 	return (0);
 }
-
